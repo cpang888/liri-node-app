@@ -8,3 +8,19 @@ Country: USA
 Language: English
 Plot: The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.
 Actors: Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys
+********
+
+********
+
+********
+
+********
+
+********
+
+********
+
+********
+my-tweets: hello 3
+my-tweets: hello 2
+my-tweets: Hello GA Tech

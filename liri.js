@@ -19,17 +19,17 @@ var input = process.argv[3];
   });
 
   if(operator === 'my-tweets') {
-    var params = {screen_name: 'nodejs', count: 1};
-  // "https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name=username&count=5");
-    client.get('statuses/user_timeline', params, function(error, tweets, response) {
+    client.get('statuses/user_timeline', {status: "I am a tweet"}, function(error, tweets, response) {
       if (!error) {
-        console.log(response);
+        for( var i=0; i<tweets.length; i++) {
+          console.log(tweets[i].text);
+          fs.appendFile('log.txt', "my-tweets: " + tweets[i].text + "\n", function (err) {
+            if (err) throw err;
+          });
+        }
       }
     });
 
-  // latestTweets('noffle', function (err, tweets) {
-  //     console.log(tweets)
-  //   })
   }
   else if(operator === 'spotify-this-song') {
 

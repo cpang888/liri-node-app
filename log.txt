@@ -1,0 +1,10 @@
+
+********
+movie-this: forrest gump 
+Title: Forrest Gump
+Year: 1994
+The movie's rating is: 8.8
+Country: USA
+Language: English
+Plot: The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.
+Actors: Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys
